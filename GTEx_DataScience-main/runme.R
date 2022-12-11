@@ -1,0 +1,10 @@
+if(!exists("mat.bc")){
+  source("StartPreprocessData.R")
+  source("filterBrainColonData.R")
+  source("DendogramBrain.R")
+  source("DendogramColon.R")
+  source("quantileNormalization.R")
+  source("Regression.R")
+  source("heatmap.R")
+  source("XGBoost.R")
+}
